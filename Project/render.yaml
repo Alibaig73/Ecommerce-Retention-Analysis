@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: retention-analytics-hub
+    name: customer-retention-hub
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
